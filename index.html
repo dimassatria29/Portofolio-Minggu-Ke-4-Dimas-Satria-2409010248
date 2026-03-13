@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dimas satria</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+<body>
+
+<!-- ── NAVBAR ─────────────────────── -->
+  <nav class="navbar">
+    <div class="navbar__logo">
+      <span class="logo-icon" data-aos="fade-right">&#9670;</span>
+      <span class="logo-text" data-aos="fade-right">dimstria</span>
+    </div>
+
+    <ul class="navbar__links">
+      <li><a href="#home" data-aos="fade-down">Home</a></li>
+      <li><a href="#about" data-aos="fade-down">About</a></li>
+      <li><a href="#portfolio" data-aos="fade-down">Portfolio</a></li>
+      <li><a href="#contact" data-aos="fade-down">Contact</a></li>
+    </ul>
+
+     <div class="nav-right">
+    <button id="darkToggle">🌙</button>
+  <a href="#contact" class="btn">Hire Me</a>
+  </div>
+</nav>
+
+  <!-- ── HERO SECTION ────────────────── -->
+  <section class="hero" id="home">
+    <div class="hero__content">
+      <span class="hero__badge" data-aos="fade-down">Available for Work</span>
+      <h1 class="hero__title" data-aos="fade-right">
+        Hi, saya <span class="highlight">Dimas Satria</span><br>
+        Web Developer
+      </h1>
+      <p class="hero__desc" data-aos="fade-left">
+        Saya membangun website yang cepat, responsif, dan tampak profesional.
+        Mari buat sesuatu yang luar biasa bersama.
+      </p>
+      <div class="hero__actions" data-aos="fade-up">
+        <a href="#portfolio" class="btn-primary">Lihat Portfolio</a>
+        <a href="#contact" class="btn-outline">Hubungi Saya</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+<section id="about" class="section">
+  <h2 class="title">About Me</h2>
+
+  <div class="grid"> 
+    <div class="card" data-aos="fade-right">
+      <h3>UI & Web Design Learner</h3>
+      <p>
+        Saya terus belajar dan mengembangkan kemampuan dalam desain
+        antarmuka dan pengembangan website. Bagi saya, setiap proyek 
+        adalah kesempatan untuk belajar hal baru dan meningkatkan kualitas karya.
+      </p>
+    </div>
+
+    <div class="card" data-aos="fade-left">
+      <h3>Creative Web Enthusiast</h3>
+      <p>
+        Saya adalah seseorang yang antusias dalam dunia pengembangan web. 
+        Saya senang mempelajari teknologi baru dan terus meningkatkan kemampuan 
+        dalam membuat website yang kreatif dan fungsional.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio" class="section">
+  <h2 class="title">My Portfolio</h2>
+
+  <div class="grid">
+
+    <div class="card" data-aos="fade-up">
+      <img src="aplikasi.png" alt="E-menu Project">
+      <h3>Aplikasi Sederhana</h3>
+      <p>Project aplikasi CRUD sederhana yang digunakan untuk mengelola data secara dinamis. 
+        Aplikasi ini dibuat untuk mempelajari dasar pengembangan web serta implementasi fitur Create, 
+        Read, Update, dan Delete dalam sebuah sistem.</p>
+    </div>
+
+    <div class="card" data-aos="fade-up">
+      <img src="login.png" alt="UI UX Analysis">
+      <h3>Form Login</h3>
+      <p>
+        Desain dan implementasi halaman login yang fokus pada tampilan sederhana, responsif, dan mudah digunakan. 
+        Project ini dibuat untuk memahami struktur autentikasi pengguna serta praktik desain UI yang baik.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+  <!-- ── SKILLS SECTION ──────────────── -->
+  <section class="skills" id="about">
+    <div class="container">
+      <h2 class="section-title">Keahlian Saya</h2>
+      <p class="section-subtitle">Teknologi yang saya kuasai</p>
+
+      <div class="skills__grid">
+
+        <div class="skill-card" data-aos="fade-right">
+          <div class="skill-card__icon">&#128195;</div>
+          <h3>HTML5</h3>
+          <p>Semantic markup, aksesibilitas, dan struktur dokumen yang baik.</p>
+        </div>
+
+        <div class="skill-card" data-aos="fade-up">
+          <div class="skill-card__icon">&#127912;</div>
+          <h3>CSS3</h3>
+          <p>Flexbox, Grid, animasi, dan responsive design untuk semua layar.</p>
+        </div>
+
+        <div class="skill-card" data-aos="fade-left">
+          <div class="skill-card__icon">&#9889;</div>
+          <h3>JavaScript</h3>
+          <p>DOM manipulation, Fetch API, dan logika interaktif modern.</p>
+        </div>
+
+        <div class="skill-card" data-aos="fade-right">
+          <div class="skill-card__icon">&#128279;</div>
+          <h3>Git & GitHub</h3>
+          <p>Version control, branching, dan kolaborasi tim secara profesional.</p>
+        </div>
+
+        <div class="skill-card" data-aos="fade-up">
+          <div class="skill-card__icon">&#9881;</div>
+          <h3>React</h3>
+          <p>Component-based development dengan hooks dan state management.</p>
+        </div>
+
+        <div class="skill-card" data-aos="fade-left">
+          <div class="skill-card__icon">&#128640;</div>
+          <h3>Performance</h3>
+          <p>Optimasi loading, image compression, dan Core Web Vitals.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+<section id="contact" class="section">
+  <h2 class="title">Contact Me</h2>
+
+  <div class="card contact-card" data-aos="zoom-in">
+    <form>
+      <input type="text" placeholder="Nama">
+      <input type="email" placeholder="Email">
+      <textarea placeholder="Pesan"></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+
+    <div class="social-contact">
+      <p>Atau hubungi saya melalui:</p>
+      <a href="https://instagram.com/dimsatria__" target="_blank" class="ig-btn">
+        📷 Instagram
+      </a>
+    </div>
+  </div>
+</section>
+
+    <!-- ── FOOTER ──────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <span class="footer__brand">&#9670; dimstria</span>
+        <p class="footer__copy">
+          &copy; 2026 Dimas Satria. Dibuat dengan HTML & CSS murni.
+        </p>
+        <div class="footer__links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#portfolio">Portfolio</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<script>
+  AOS.init({
+    duration:1100,
+  });
+</script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
